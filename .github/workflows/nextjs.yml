@@ -31,7 +31,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./.next/export  # Điều chỉnh đường dẫn đến thư mục xuất tĩnh
+          path: ./out  # Đường dẫn đến thư mục tĩnh được tạo ra sau khi build
 
   deploy:
     environment:
@@ -43,4 +43,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./.next/export  # Điều chỉnh đường dẫn đến thư mục xuất tĩnh
+          publish_dir: ./out  # Đường dẫn đến thư mục tĩnh để deploy
