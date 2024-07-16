@@ -1,7 +1,7 @@
 {
   "app": {
-    "title": "nextjs-mini",
-    "headerTitle": "nextjs-mini",
+    "title": "nextapp",
+    "headerTitle": "nextapp",
     "headerColor": "#1843EF",
     "textColor": "white",
     "statusBarColor": "#1843EF",
@@ -13,8 +13,6 @@
   },
   "debug": false,
   "listCSS": [],
-  "listSyncJS": [
-    "inline.js"
-  ],
+  "listSyncJS": [],
   "listAsyncJS": []
 }
