@@ -5,3 +5,4 @@ module.exports = {
   assetPrefix: isProd ? "https://hieu24313.github.io/nextjs-mini" : undefined,
   output: 'export', // Thêm dòng này để hỗ trợ xuất tĩnh
 };
+
