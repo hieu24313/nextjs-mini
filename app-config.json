@@ -12,7 +12,21 @@
     "hideIOSSafeAreaBottom": false
   },
   "debug": false,
-  "listCSS": [],
-  "listSyncJS": [],
+  "listCSS": [
+    "cdn.651cd2d1eb241de2fec7.css"
+  ],
+  "listSyncJS": [
+    "inline.js",
+    "cdn.polyfills-35a7e76dac76ed464290.js",
+    "cdn.main-94f8a9c60222d8c08dd2.js",
+    "cdn.webpack-95c2b224bccf352ee870.js",
+    "cdn.framework.0ba53a8de0b1a5f4cfd1.js",
+    "cdn.eac7291e3c1fb23fde2337b220bcc28d4f448999.1d0f4252bd0219a1e7a9.js",
+    "cdn._app-3fd0d381e07f401c27a5.js",
+    "cdn.1bfc9850.c33c9d75d08f4eeba297.js",
+    "cdn.899738523010801b12077700f6585aacbd232bd1.07474c4b4962a3287b87.js",
+    "cdn.55b53f0e4b89b465614e8268257feb9e643f5d96.f034028aa5f3c7c9cde3.js",
+    "cdn.index-76d38af2588908d83e96.js"
+  ],
   "listAsyncJS": []
 }
